@@ -21,8 +21,20 @@
 
 > 📸 **Screenshot Placeholder**
 > ```
-> [Screenshot: EC2 Dashboard with "Launch instance" button highlighted]
+><img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/03532084-dc3c-4d47-930a-69380c85e200" />
 > ```
+> ```
+> <img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/2af9d833-5aac-4926-858e-fa227f822a04" />
+> ```
+> ```
+> <img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/e0bf51e1-6e4c-49d6-aecc-ddec1c780ca2" />
+> ```
+> ```
+> <img width="602" height="543" alt="image" src="https://github.com/user-attachments/assets/ac7628e0-9992-4388-b52c-2641213427cd" />
+> ```
+> <img width="825" height="521" alt="image" src="https://github.com/user-attachments/assets/ef497460-6a9b-4822-9e1f-86aed780aca7" />
+> ```
+
 
 ---
 
