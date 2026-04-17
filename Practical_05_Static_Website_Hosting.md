@@ -67,14 +67,19 @@ p  { color: #555; }
 8. Click **"Create bucket"**.
 
 > 📸 **Screenshot Placeholder**
-> ```
-> [Screenshot: S3 bucket creation form with name filled and Block Public Access unchecked]
-> ```
+> <img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/27d885fc-e6ab-4dc3-9756-fe081626755e" />
+> <img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/57be29f8-8473-4031-be70-50df622cb505" />
+> <img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/e5442962-06d7-4096-a4dc-b19601ecf83f" />
+> <img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/537bfb76-5bda-43bb-9d99-c2a227fb7559" />
+> <img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/b37651d4-08dc-4701-ae53-0e8e9b895eb3" />
+> <img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/a0c8e45a-b483-4c27-b514-e4b4e5fb2531" />
+> <img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/ca634ce3-0f66-4cb4-9c0f-9f3632822d5e" />
+> <img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/c24ed955-9cea-4666-b29c-ee2405483ee2" />
+> <img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/877dc11d-f83c-413b-93ca-dffb77963c7e" />
+> <img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/e66a3dbc-8647-462c-b49e-940cc060c9e1" />
+> <img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/648bce4f-41ed-4f71-bf93-9ec492457aa9" />
+> <img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/c92386df-bd71-4887-9bbc-e5755af23654" />
 
-> 📸 **Screenshot Placeholder**
-> ```
-> [Screenshot: S3 bucket successfully created in the buckets list]
-> ```
 
 ---
 
@@ -146,9 +151,7 @@ p  { color: #555; }
 4. Click **"Save changes"**.
 
 > 📸 **Screenshot Placeholder**
-> ```
-> [Screenshot: Bucket policy editor with the public read policy pasted]
-> ```
+> 
 
 ---
 
