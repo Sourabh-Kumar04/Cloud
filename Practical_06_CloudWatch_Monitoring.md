@@ -30,9 +30,8 @@
 3. Note the **Instance ID** (e.g., `i-0abc12345def67890`).
 
 > 📸 **Screenshot Placeholder**
-> ```
-> [Screenshot: EC2 Instances list showing a running instance with its Instance ID]
-> ```
+> <img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/8549d407-9ba6-47d4-8766-f2a8ffab3af0" />
+
 
 ---
 
@@ -45,9 +44,8 @@ By default, EC2 sends metrics to CloudWatch every **5 minutes** (Basic Monitorin
 3. Check **"Enable"** and click **"Save"**.
 
 > 📸 **Screenshot Placeholder**
-> ```
-> [Screenshot: Detailed monitoring dialog with "Enable" checked]
-> ```
+> <img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/1c1a8eaa-30e4-45ea-a634-b6532c954df7" />
+
 
 ---
 
@@ -62,14 +60,8 @@ By default, EC2 sends metrics to CloudWatch every **5 minutes** (Basic Monitorin
 7. A graph will appear showing CPU usage over time.
 
 > 📸 **Screenshot Placeholder**
-> ```
-> [Screenshot: CloudWatch Metrics browser showing CPUUtilization selected for the EC2 instance]
-> ```
-
-> 📸 **Screenshot Placeholder**
-> ```
-> [Screenshot: CloudWatch graph displaying CPU utilization over time]
-> ```
+> <img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/a8689f1a-cc64-4d8c-abb9-c5afc943b390" />
+> <img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/3da1e9e1-5d28-4b98-9212-579961131bc3" />
 
 ---
 
@@ -87,14 +79,11 @@ Before creating an alarm, set up the email notification channel.
 5. Click **"Create topic"**.
 
 > 📸 **Screenshot Placeholder**
-> ```
-> [Screenshot: SNS Create topic form with name EC2HighCPUAlert]
-> ```
+> <img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/8fa3a9ca-282a-404b-97b4-b4ba85c81560" />
+> <img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/a054c3b8-4b4a-4c44-a78a-c45a0c9d2947" />
+> <img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/16faf03a-4451-4999-b63f-6bde9153eb08" />
 
-> 📸 **Screenshot Placeholder**
-> ```
-> [Screenshot: SNS topic created successfully with Topic ARN shown]
-> ```
+
 
 ---
 
@@ -111,19 +100,12 @@ Before creating an alarm, set up the email notification channel.
 6. The subscription status in AWS will change from **Pending confirmation** to **Confirmed**.
 
 > 📸 **Screenshot Placeholder**
-> ```
-> [Screenshot: SNS Create subscription form with Protocol=Email and endpoint filled]
-> ```
+> <img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/f0080541-4174-41b6-a818-dd19ad4429fd" />
+> <img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/28a5c6b5-3074-4c1c-b356-00b507b9f12d" />
+> <img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/ad190af0-e141-435b-83ef-063196c8d9e0" />
+> <img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/95e95051-6b6d-46d7-ada3-70c93c3dcaf8" />
+> <img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/6ba18fe2-e7f6-4789-9c78-2b7e93fec638" />
 
-> 📸 **Screenshot Placeholder**
-> ```
-> [Screenshot: Confirmation email received in inbox with "Confirm subscription" link]
-> ```
-
-> 📸 **Screenshot Placeholder**
-> ```
-> [Screenshot: Subscription status showing "Confirmed"]
-> ```
 
 ---
 
@@ -148,9 +130,14 @@ Before creating an alarm, set up the email notification channel.
 10. Click **"Next"**.
 
 > 📸 **Screenshot Placeholder**
-> ```
-> [Screenshot: Alarm condition configuration showing CPU > 70% threshold]
-> ```
+> <img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/4740a716-97d8-4c28-bbd0-d3bca1d2ebd4" />
+> <img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/e7ddd2f8-26bb-4530-ad23-cbd100258660" />
+> <img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/279f66f1-4a62-49a1-b7bb-a7c51f872b06" />
+> <img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/1d461d60-085b-4ac2-b950-e6724dde2687" />
+> <img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/f060a4de-bd1a-4ff0-8d63-1cc8fe9b21a1" />
+> <img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/5bd67c42-c785-4cb4-b19f-45b246db30b6" />
+> <img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/6ce5207b-ecb8-4908-ab25-91871414a2fb" />
+
 
 ### Configure Notifications
 11. Under **"Notification"**:
@@ -159,9 +146,8 @@ Before creating an alarm, set up the email notification channel.
 12. Click **"Next"**.
 
 > 📸 **Screenshot Placeholder**
-> ```
-> [Screenshot: Alarm notification configuration with EC2HighCPUAlert SNS topic selected]
-> ```
+> <img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/425e1a10-0dfb-4e4f-9fd2-3566bb6f8010" />
+
 
 ### Name the Alarm
 13. **Alarm name:** `EC2-HighCPU-Alarm`
@@ -169,17 +155,12 @@ Before creating an alarm, set up the email notification channel.
 15. Click **"Next"** → **"Create alarm"**.
 
 > 📸 **Screenshot Placeholder**
-> ```
-> [Screenshot: Alarm preview summary before creation]
-> ```
+> <img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/06508f06-2ed6-423d-920b-2c81b8f115e6" />
+> <img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/d701a74f-50a8-4963-9d80-9a39e04c7b7e" />
+> <img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/b70a81bf-cbd6-4452-85f6-26aad9982246" />
 
-> 📸 **Screenshot Placeholder**
-> ```
-> [Screenshot: CloudWatch Alarms list showing EC2-HighCPU-Alarm with "OK" state]
-> ```
 
 ---
-
 ## Step 7: Test the Setup — Simulate High CPU Usage
 
 SSH into your EC2 instance and generate CPU load.
