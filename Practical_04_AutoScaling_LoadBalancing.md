@@ -58,14 +58,14 @@ echo "<h1>Hello from $(hostname -f)</h1>" > /var/www/html/index.html
 10. Click **"Create launch template"**.
 
 > 📸 **Screenshot Placeholder**
-> ```
-> [Screenshot: Launch Template creation form with AMI, instance type, and User Data filled in]
-> ```
-
-> 📸 **Screenshot Placeholder**
-> ```
-> [Screenshot: Launch Template successfully created confirmation page]
-> ```
+> <img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/6dc981a4-393d-4818-b7df-15be1a8772ad" />
+> <img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/e141c9aa-8de6-4470-98e1-7c9d5b86c521" />
+> <img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/e7130730-dd25-4515-a8f5-e7af37511d7a" />
+> <img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/aa052493-acf2-4372-a517-c68557de178b" />
+> <img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/2aaee123-787b-4dcd-af1c-2fa5b258c746" />
+> <img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/9c1a2779-2ea7-47ec-b486-742215d4175c" />
+> <img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/a36bf194-bcf5-4a83-8193-18b882dd1fe9" />
+> 
 
 ---
 
@@ -88,9 +88,11 @@ Before creating the Load Balancer, you need a **Target Group** — a logical gro
 6. Click **"Create target group"**.
 
 > 📸 **Screenshot Placeholder**
-> ```
-> [Screenshot: Target Group creation form with HTTP port 80 and health check configured]
-> ```
+> <img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/9690e826-428d-4006-bd41-1dfa463b0a48" />
+> <img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/220dae41-f548-4008-8909-914392f2aaa3" />
+> <img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/530c59a8-7c50-4cb8-9302-2e459ce93903" />
+> <img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/595d6e99-91e0-4039-a68a-beffeeb35857" />
+> <img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/35493a02-f4a6-4a4d-89c9-c566faef8d2b" />
 
 ---
 
@@ -114,14 +116,13 @@ Before creating the Load Balancer, you need a **Target Group** — a logical gro
 8. Wait for the state to change from **"Provisioning"** to **"Active"** (1–3 minutes).
 
 > 📸 **Screenshot Placeholder**
-> ```
-> [Screenshot: ALB creation page showing network mapping with 2 subnets selected]
-> ```
+> <img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/c2ca911a-2ece-4f54-b772-c9b9969a600a" />
+> <img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/43b38913-277f-4b66-98f0-72a3245bf55a" />
+> <img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/fae4f961-2f8e-4594-8b32-b59e6a86cb9e" />
+> <img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/15f9f3d4-3199-49ef-9d2d-e06b08a4cf7b" />
+> <img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/d9e47b6c-ffdf-4e30-bb38-daeabafdeacd" />
+> <img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/2d9c3283-4167-46e1-a66b-6b3f8e11930b" />
 
-> 📸 **Screenshot Placeholder**
-> ```
-> [Screenshot: ALB successfully created with "Active" state]
-> ```
 
 ---
 
@@ -158,14 +159,15 @@ Before creating the Load Balancer, you need a **Target Group** — a logical gro
 - Click **"Next"**.
 
 > 📸 **Screenshot Placeholder**
-> ```
-> [Screenshot: ASG Group size settings with desired=2, min=1, max=4]
-> ```
+> <img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/856d9a9e-6bee-4d66-96bf-3ff7fe2bf73b" />
+> <img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/22e9edab-b0e3-4883-a9f8-736cd2766b57" />
+> <img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/081eba9a-d606-4ff6-a3f9-71166299d157" />
+> <img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/12a6efa8-3234-4fd9-bf5f-3873717d7568" />
+> <img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/8c5c88b4-b8d7-4138-86a5-837ef6683c56" />
+> <img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/7964b0ac-2e14-4e8b-9094-e4a41820c2b9" />
+> <img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/04135993-12d6-41ab-aa96-043615698e77" />
+> <img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/24196617-ad7f-48a7-83f9-255039a6796e" />
 
-> 📸 **Screenshot Placeholder**
-> ```
-> [Screenshot: Scaling policy configuration showing CPU target at 70%]
-> ```
 
 ### Step 4e: Add Notifications (Optional)
 - Optionally configure an **SNS notification** for scale-out/in events.
@@ -176,9 +178,12 @@ Before creating the Load Balancer, you need a **Target Group** — a logical gro
 - Click **"Create Auto Scaling group"**.
 
 > 📸 **Screenshot Placeholder**
-> ```
-> [Screenshot: ASG created successfully, showing 2 instances being launched]
-> ```
+> <img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/de6e6400-eb0c-4fa1-b0cd-2fd8421957c9" />
+> <img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/99246531-0e0b-4c2d-81ba-071ea9016f01" />
+> <img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/c10afedd-1c8b-4923-bc55-35f97ee14aec" />
+> <img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/19676eff-4e6c-4b77-a752-2baabf16594d" />
+> <img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/7012ea5b-b27c-4c47-96fe-c0d8b77d91d5" />
+
 
 ---
 
@@ -189,9 +194,8 @@ Before creating the Load Balancer, you need a **Target Group** — a logical gro
    - Both instances should show **"Healthy"** status after a couple of minutes.
 
 > 📸 **Screenshot Placeholder**
-> ```
-> [Screenshot: Target Group Targets tab showing 2 instances as "Healthy"]
-> ```
+> <img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/48ad8378-0fd0-4321-891a-0506bd498df9" />
+
 
 3. Copy the **DNS name** of your Load Balancer:
    - Go to **EC2 → Load Balancers → MyAppLoadBalancer**
@@ -201,9 +205,10 @@ Before creating the Load Balancer, you need a **Target Group** — a logical gro
 6. Refresh the page multiple times — the hostname may change, showing traffic being distributed between instances.
 
 > 📸 **Screenshot Placeholder**
-> ```
-> [Screenshot: Browser showing "Hello from ip-10-0-1-x.ec2.internal" web page]
-> ```
+> <img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/604f9d7b-f26f-4e84-9dcb-dd32cccd0109" />
+> <img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/bd03d0e6-835f-44d4-b1f5-3f4516e0432d" />
+> <img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/a109b548-0679-48d0-9c30-406247de32ce" />
+
 
 ---
 
@@ -225,9 +230,11 @@ Before creating the Load Balancer, you need a **Target Group** — a logical gro
 5. Watch for a **"Launch"** activity — the ASG should launch additional instances when CPU exceeds 70%.
 
 > 📸 **Screenshot Placeholder**
-> ```
-> [Screenshot: Terminal showing stress command running]
-> ```
+> <img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/2f22a855-364e-4483-8ebf-a03fa8275c4a" />
+> <img width="602" height="543" alt="image" src="https://github.com/user-attachments/assets/ebb66ffa-4d50-493a-9ade-67b94e72359c" />
+> <img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/d4bc0926-106b-4dbb-abeb-1dca5d811c56" />
+> <img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/544d8153-53df-413d-a517-b242cb5251f5" />
+
 
 > 📸 **Screenshot Placeholder**
 > ```
@@ -252,9 +259,8 @@ Before creating the Load Balancer, you need a **Target Group** — a logical gro
 3. Click on an alarm to view its graph and state.
 
 > 📸 **Screenshot Placeholder**
-> ```
-> [Screenshot: CloudWatch Alarm showing CPU utilization exceeding 70% threshold]
-> ```
+> <img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/c357e452-f280-4643-b614-2d9677c450d0" />
+
 
 ---
 
